@@ -1,7 +1,7 @@
 [project]
 name = "rmt"
 version = "0.1.0"
-description = "Add your description here"
+description = "A safer rm alternative that moves files to trash instead of deleting them permanently"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = ["typer>=0.27.0"]
