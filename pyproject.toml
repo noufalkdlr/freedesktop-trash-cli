@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "A safer rm alternative that moves files to trash instead of deleting them permanently"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = ["typer>=0.27.0"]
+dependencies = [
+    "questionary>=2.1.1",
+    "typer>=0.27.0",
+]
 
 [project.scripts]
 rmt = "rmt.main:app"
